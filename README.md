@@ -1,16 +1,27 @@
-#0x11. C - printf
+# 0x11. C - printf
 
-#Background Context
+# Background Context
+
 Write your own printf function.
 
-#Compilation
+# Authors
+
+* Alice Ada Awuor
+* Lincy Akoth Odhiambo
+
+
+# Compilation
+
 Your code will be compiled this way:
+
 $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
+
 As a consequence, be careful not to push any c file containing a main function in the root directory of your project (you could have a test folder containing all your tests files including main functions)
 Our main files will include your main header file (main.h): #include main.h
 You might want to look at the gcc flag -Wno-format when testing with your _printf and the standard printf. Example of test file that you could use:
 
-	Code
+## Code
+
 #include <limits.h>
 #include <stdio.h>
 #include "main.h"
@@ -55,7 +66,9 @@ int main(void)
     printf("Unknown:[%r]\n");
     return (0);
 }
-		Output
+
+## Output
+
 Let's try to printf a simple sentence.
 Let's try to printf a simple sentence.
 Length:[39, 39]
@@ -84,7 +97,8 @@ Unknown:[%r]
 We strongly encourage you to work all together on a set of tests
 If the task does not specify what to do with an edge case, do the same as printf
 
-#Tasks
+# Tasks
+
 0. I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life
 Write a function that produces output according to a format.
 
@@ -100,9 +114,10 @@ You don’t have to handle the flag characters
 You don’t have to handle field width
 You don’t have to handle precision
 You don’t have to handle the length modifiers
-1. Education is when you read the fine print. Experience is what you get if you don't
-Handle the following conversion specifiers:
 
+
+1. Education is when you read the fine print. Experience is what you get if you don't
+Handle the following conversion specifiers
 d
 i
 You don’t have to handle the flag characters
